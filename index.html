@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore the professional portfolio of William Alexander Senn, showcasing leadership in digital marketing, content creation, and management. See projects, skills, and connect here.">
+    <meta name="keywords" content="digital marketing, content creation, leadership management, project management, SEO, social media marketing, branding, William Alexander Senn">
+    <title>William Alexander Senn - Digital Marketing Leader</title>
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="http://www.example.com">
+    <meta property="og:title" content="William Alexander Senn - Digital Marketing Leader">
+    <meta property="og:description" content="Explore the portfolio of William Alexander Senn, a leader in digital marketing and content creation. Discover projects, skills, and ways to connect.">
+    <meta property="og:image" content="images/your-og-image.jpg"> <!-- Update this path -->
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="http://www.example.com">
+    <meta property="twitter:title" content="William Alexander Senn - Digital Marketing Expert">
+    <meta property="twitter:description" content="Discover William Alexander Senn's portfolio, leading in digital marketing and content creation. See projects, skills, and connect here.">
+    <meta property="twitter:image" content="images/your-twitter-image.jpg"> <!-- Update this path -->
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Arial:ital,wght@0,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            font-size: 100%;
+            background: linear-gradient(to right, #f3d7b0, #ee9a7e);
+            color: #070708;
+        }
+
+        header {
+            background-color: #0066cc;
+        }
+
+        .nav-link {
+            color: rgb(242, 245, 245) !important;
+        }
+
+        main {
+            padding: 30px;
+        }
+
+        main h1,
+        main h2 {
+            color: #023981;
+            text-transform: uppercase;
+            position: relative;
+            font-size: 2.5em;
+            text-align: center;
+        }
+
+        main h1::after,
+        main h2::after {
+            content: '';
+            display: block;
+            width: 40px;
+            height: 6px;
+            background: #b71203;
+            margin: 0.5em auto;
+            transition: width 0.4s ease-in-out;
+        }
+
+        .content:hover h1::after,
+        .content:hover h2::after {
+            width: 100px;
+        }
+
+        .about-img,
+        .card-img-top {
+            width: 150px;
+            height: 150px;
+            border-radius: 5px;
+            margin-bottom: 1em;
+            align-self: flex-start;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        .about-img:hover,
+        .card-img-top:hover {
+            transform: scale(1.05);
+            box-shadow: 0 8px 16px rgba(233, 40, 40, 0.3);
+        }
+
+        .footer {
+            background-color: #0066cc;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+        }
+
+        .project-container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 30px;
+            margin-top: 30px;
+        }
+
+        .project-card {
+            flex: 1 1 300px;
+            max-width: 320px;
+            border: 1px solid #b71203;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            padding: 20px;
+            text-align: center;
+            border-radius: 5px;
+            background-color: #c6b1b1;
+        }
+
+        .project-card h3 {
+            font-size: 1.5em;
+            color: #0066cc;
+            margin-bottom: 0.5em;
+        }
+
+        .project-card p {
+            font-size: 1.1em;
+            color: #333;
+        }
+
+        .project-card:hover {
+            transform: scale(1.05);
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .btn-submit {
+            background-color: #023981;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            text-transform: uppercase;
+            cursor: pointer;
+        }
+
+        .btn-submit:hover {
+            background-color: #b71203;
+            transition: background-color 0.3s ease-in-out;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <nav class="nav navbar navbar-expand-md navbar-dark">
+            <a class="nav-link navbar-brand" href="#home">W.A. Senn</a>
+            <button class="nav-link navbar-toggler" type="button" data-toggle="collapse" data-target="#navContent" aria-controls="navContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="nav-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navContent">
+                <ul class="nav navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#myStory">My Story</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div id="home" class="content animate__animated fadeInUp" style="display: block;">
+            <h1>William Alexander Senn</h1>
+            <p>Your go-to expert for digital marketing, innovative content creation, and strategic leadership management.</p>
+            <img id="mainImage" src="/Users/williamsenn/Desktop/portfolio content/84773151.png" alt="Professional portrait of William Alexander Senn" class="about-img" onclick="toggleSize()"> <!-- Update this path -->
+        </div>
+        <br>
+        
+        <div id="about" class="content animate__animated fadeInUp" style="display: none;">
+            <h2>About Me</h2>
+            <p>Hi, I'm William Alexander Senn, a digital marketing leader known for my strategic approach to content creation and copywriting. My experience in project management and team leadership allows me to transform visions into reality, ensuring impactful results and enhanced brand presence.</p>
+        </div>
+        <br>
+        
+        <div id="projects" class="content animate__animated fadeInUp" style="display: none;">
+            <h2>My Projects</h2>
+            <div class="project-container">
+                <div class="project-card">
+                    <h3>Engage & Elevate Digital Marketing Campaign</h3>
+                    <img src="/Users/williamsenn/Desktop/portfolio content/projectpic1.png" alt="Project 1 Image" class="card-img-top">
+                    <p>An innovative campaign that boosted client engagement by 50% through strategic content creation and SEO optimization.</p>
+                </div>
+                <div class="project-card">
+                    <h3>Copywriting Excellence</h3>
+                    <img src="/Users/williamsenn/Desktop/portfolio content/projectpic3.png" alt="Project 2 Image" class="card-img-top">
+                    <p>Crafted compelling copy that increased conversion rates by 40%, enhancing the digital presence of a leading brand.</p>
+                </div>
+                <div class="project-card">
+                    <h3>InnovateLead</h3>
+                    <img src="/Users/williamsenn/Desktop/portfolio content/projectpic2.png" alt="Project 3 Image" class="card-img-top">
+                    <p>Led a team of creatives to develop a series of high-impact content that significantly grew the client's audience.</p>
+                </div>
+            </div>
+        </div>
+        <br>
+        
+        <div id="myStory" class="content animate__animated fadeInUp" style="display: none;">
+            <h2>My Story</h2>
+            <p>My journey into the realm of digital marketing began with a vision to bridge the gap between creativity and strategic thinking. With a background in project management and team leadership, I have successfully transformed countless visions into tangible results.</p>
+            <p>From leading high-impact campaigns to crafting compelling content, my story is one of growth, perseverance, and a relentless drive to redefine digital marketing excellence.</p>
+        </div>
+        <br>
+        
+        <div id="contact" class="content animate__animated fadeInUp" style="display: none;">
+            <h2>Contact Me</h2>
+            <p>Let's create something amazing together! Whether it's innovative content, strategic campaigns, or transforming ideas into reality, I'm just a message away. Reach out to collaborate or inquire about my services.</p>
+            <form onsubmit="return validateForm()">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" class="form-control" id="name" placeholder="Enter your name" required>
+                </div>
+                <br>
+                
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+                </div>
+                <br>
+                
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea class="form-control" id="message" rows="4" placeholder="Enter your message" required></textarea>
+                </div>
+                <br>
+                
+                <button type="submit" class="btn-submit">Submit</button>
+            </form>
+        </div>
+        <br>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2023 William Alexander Senn. All rights reserved. Leading expert in Digital Marketing, Copywriting, Content Creation, and Leadership Management.</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+
+        function animateOnScroll() {
+            const elements = document.querySelectorAll('.content');
+            elements.forEach(el => {
+                const rect = el.getBoundingClientRect();
+                if (rect.top < window.innerHeight && !el.classList.contains('visible')) {
+                    el.classList.add('visible');
+                    el.style.display = 'block';
+                }
+            });
+        }
+
+        function toggleSize() {
+            const size = document.getElementById('mainImage').style.width === '150px' ? 'large' : 'small';
+            resizeImage(size);
+        }
+
+        function resizeImage(size) {
+            const image = document.getElementById('mainImage');
+            if (size === 'small') {
+                image.style.width = '150px';
+                image.style.height = 'auto';
+            } else if (size === 'large') {
+                image.style.width = '300px';
+                image.style.height = 'auto';
+            }
+        }
+
+        function validateForm() {
+            const name = document.getElementById('name').value;
+            const email = document.getElementById('email').value;
+            const message = document.getElementById('message').value;
+
+            if (!name || !email || !message) {
+                alert('Please fill out all fields.');
+                return false;
+            }
+            return true;
+        }
+
+        function debounce(func, wait) {
+            let timeout;
+            return function (...args) {
+                const later = () => {
+                    clearTimeout(timeout);
+                    func(...args);
+                };
+                clearTimeout(timeout);
+                timeout = setTimeout(later, wait);
+            };
+        }
+
+        window.addEventListener('scroll', debounce(animateOnScroll, 100));
+        animateOnScroll();
+
+        // Example of smooth scrolling to sections with IDs
+        const navLinks = document.querySelectorAll('a[href^="#"]');
+        navLinks.forEach(link => {
+            link.addEventListener('click', e => {
+                e.preventDefault();
+                const target = document.querySelector(link.getAttribute('href'));
+                if (target) {
+                    const navHeight = document.querySelector('nav').offsetHeight;
+                    const targetPosition = target.offsetTop - navHeight;
+                    window.scrollTo({
+                        top: targetPosition,
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+
+        // Example of toggling form feedback
+        const form = document.querySelector('form');
+        form.addEventListener('input', (e) => {
+            if (!e.target.validity.valid) {
+                e.target.classList.add('invalid');
+            } else {
+                e.target.classList.remove('invalid');
+            }
+        });
+        form.addEventListener('submit', (e) => {
+            if (!form.checkValidity()) {
+                e.preventDefault();
+                form.querySelectorAll(':invalid').forEach(input => {
+                    input.classList.add('invalid');
+                });
+            }
+        });
+    </script>
+</body>
+
+</html>
